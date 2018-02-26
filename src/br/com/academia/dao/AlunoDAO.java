@@ -2,6 +2,9 @@ package br.com.academia.dao;
 
 import java.util.List;
 
+import javax.persistence.EntityManager;
+import javax.persistence.EntityNotFoundException;
+
 import br.com.academia.interfaces.InterfaceDAO;
 
 public class AlunoDAO implements InterfaceDAO{
